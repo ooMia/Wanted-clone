@@ -1,0 +1,7 @@
+.ImageBoxList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+/* 현재 위치를 기준으로 특정 위치만큼 움직여야함 */

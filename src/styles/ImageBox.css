@@ -1,0 +1,7 @@
+.ImageBox {
+    border: solid 1px gray;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    /*position: relative;*/
+}
