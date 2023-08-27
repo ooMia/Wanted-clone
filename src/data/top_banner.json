@@ -1,0 +1,41 @@
+{
+  "length": 4,
+  "contents": [
+    {
+      "cid": 0,
+      "source": "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F2081%2F7c4e8e6d.jpg&w=1060&q=100",
+      "description": [
+        "연봉, 면접 등 기업정보를 한번에",
+        "궁금한 기업의 모든 정보, 원티드인사이트"
+      ],
+      "link": "https://insight.wanted.co.kr/"
+    },
+    {
+      "cid": 1,
+      "source": "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F2132%2Fb670c0d8.jpg&w=1060&q=100",
+      "description": [
+        "미래의 리더를 키워내는 산업",
+        "에듀테크 분야의 포지션을 추천합니다."
+      ],
+      "link": "https://www.wanted.co.kr/themes/edutech"
+    },
+    {
+      "cid": 2,
+      "source": "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F2144%2Fc0d7064f.jpg&w=1060&q=100",
+      "description": [
+        "주요 대기업 포지션 모음",
+        "사업성, 안정성, 인지도 세 가지를 모두 갖춘!"
+      ],
+      "link": "https://www.wanted.co.kr/themes/major"
+    },
+    {
+      "cid": 3,
+      "source": "https://image.wanted.co.kr/optimize?src=https%3A%2F%2Fstatic.wanted.co.kr%2Fimages%2Fbanners%2F2059%2F24c52879.jpg&w=1060&q=100",
+      "description": [
+        "2023 아기 유니콘 기업",
+        "글로벌 기업 성장성을 인정받아 적극 채용 중"
+      ],
+      "link": "https://www.wanted.co.kr/themes/babyunicorn"
+    }
+  ]
+}
