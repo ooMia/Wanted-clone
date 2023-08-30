@@ -1,8 +1,0 @@
-.blur {
-    background: #282c34;
-    height: 200px;
-    position: absolute;
-    border: dotted 1px red;
-    /*position: fixed;*/
-    z-index: 1;
-}
