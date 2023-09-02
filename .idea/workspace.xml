@@ -5,21 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14d1601d-4777-4058-ac0b-1b28edf5f8a3" name="변경" comment="2~3번 과제 수행">
-      <change afterPath="$PROJECT_DIR$/src/app/ContextProviders.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AlertDialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CustomDialogsDemo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CustomizedSnackbars.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SimpleDialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contexts/DialogContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/register/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/register/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ContextProviders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ContextProviders.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +94,7 @@
       <workItem from="1693307678437" duration="11049000" />
       <workItem from="1693350024566" duration="12543000" />
       <workItem from="1693379589995" duration="5025000" />
-      <workItem from="1693485692159" duration="60376000" />
+      <workItem from="1693485692159" duration="60590000" />
     </task>
     <task id="LOCAL-00001" summary="1번 과제">
       <option name="closed" value="true" />
@@ -125,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693370717707</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2~3번 과제 수행">
+      <option name="closed" value="true" />
+      <created>1693664342333</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693664342333</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
