@@ -21,7 +21,10 @@
     "paths": {
       "@/*": ["./src/*"],
       "@/components/*": ["./src/components/*"],
-      "@/pages/*": ["./src/pages/*"]
+      "@/pages/*": ["./src/app/*"],
+      "@/pages/login/*": ["./src/app/login/*"],
+      "@/pages/register/*": ["./src/app/register/*"],
+      "@/contexts/*": ["./src/contexts/*"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
