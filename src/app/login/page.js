@@ -50,24 +50,25 @@ export default function SignIn() {
 
     const onSubmitHandler = (data, e) => {
 
-        const [id, pw] = ['helloworld', 'Qwer!234']
+        const [email, pw] = ['helloworld', 'Qwer!234']
 
         const isValid = data.password.match("(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&_+=]).{8,}") !== null
-        if (!isValid) errorDialog("영소/대문자와 특수기호 1개 포함, 8자 이상")
-        else if (data.id === id && data.password === pw) {
+        if (!isValid) errorDialog("비밀번호 규칙 오류", "영소/대문자와 특수기호 1개 포함, 8자 이상")
+        else if (data.email === email && data.password === pw) {
+            errorDialog("로그인 성공",`반갑습니다, ${email}`)
             console.log(data)
-        } else errorDialog("등록되지 않은 사용자입니다.")
+        } else errorDialog("로그인 실패","등록되지 않은 사용자입니다.")
 
         // console.log("--")
         // console.log(e)
     }
 
 
-    const errorDialog = (message) => {
+    const errorDialog = (title, message) => {
 
         dialogsDispatch({
             type: "edit", dialogName: "FormError", dialog: {
-                title: "경고", description: message, buttons: [{
+                title: title, description: message, buttons: [{
                     // should assign callback
                     name: "Confirm", callback: () => {
 
@@ -113,7 +114,7 @@ export default function SignIn() {
                             margin="normal"
                             fullWidth
                             autoComplete="email"
-                            type="email"
+                            // type="email"
                             {...register("email",
                                 {required: true})}
                             placeholder="Email"/>
