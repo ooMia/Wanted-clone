@@ -26,8 +26,12 @@ export default function CSR() {
 
     const searchKeyword = searchParams.get('search');
     const url = useMemo(
-        () => `https://dummyjson.com/products/
-        ${searchKeyword && searchKeyword !== "" ? `search?q=${searchKeyword}` : ""}`,
+        () => {
+            let res = `https://dummyjson.com/products/`
+                if (searchKeyword && searchKeyword !== "")
+                    res += `search?q=${searchKeyword}`
+            return res
+        },
         [searchKeyword]
     )
 
@@ -47,7 +51,6 @@ console.log(searchParams)
                 />
                 <Button onClick={(e) => {
                     const val = inputRef.current.value
-                    console.log(val)
                     router.push(pathname + '?' + createQueryString('search', val))
                 }}>search</Button>
             </Box>
