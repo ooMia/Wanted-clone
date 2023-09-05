@@ -31,8 +31,7 @@ export default function CSR() {
                 if (searchKeyword && searchKeyword !== "")
                     res += `search?q=${searchKeyword}`
             return res
-        },
-        [searchKeyword]
+        },[searchKeyword]
     )
 
     const onClickEventHandler = () => {
