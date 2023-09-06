@@ -20,6 +20,7 @@ const Products = ({url}) => {
         ssr: false,
         loading: () => <Skeleton width={210} height={118} style={{margin: 3}}/>,
     })
+
     return (<Grid
         container
         direction="row"

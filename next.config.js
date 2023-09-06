@@ -8,7 +8,7 @@ module.exports = {
                 protocol: 'https',
                 hostname: 'i.dummyjson.com',
                 port: '',
-                pathname: '/**',
+                pathname: '/products/**',
             },
         ],
     },
