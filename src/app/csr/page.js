@@ -1,6 +1,6 @@
 'use client'
 
-import {useCallback, useMemo, useRef} from 'react';
+import {useCallback, useMemo, useRef, useState} from 'react';
 import Button from "@mui/material/Button";
 import {usePathname, useRouter, useSearchParams} from "next/navigation";
 import Container from "@mui/material/Container";
@@ -15,8 +15,8 @@ export default function CSR() {
     const pathname = usePathname()
     const searchParams = useSearchParams()
 
-    const details=true
-    // const [details, setDetails] = useState(false)
+    // const details = true
+    const [details, setDetails] = useState(false)
 
     const createQueryString = useCallback((name, value) => {
         const params = new URLSearchParams(searchParams)
@@ -28,17 +28,17 @@ export default function CSR() {
     const url = useMemo(
         () => {
             let res = `https://dummyjson.com/products/`
-                if (searchKeyword && searchKeyword !== "")
-                    res += `search?q=${searchKeyword}`
+            if (searchKeyword && searchKeyword !== "")
+                res += `search?q=${searchKeyword}`
             return res
-        },[searchKeyword]
+        }, [searchKeyword]
     )
 
     const onClickEventHandler = () => {
         setDetails(true)
     }
 
-console.log(searchParams)
+    console.log(searchParams)
     const inputRef = useRef()
     return (
         <Container maxWidth={"xl"}>
@@ -48,7 +48,7 @@ console.log(searchParams)
                     inputRef={inputRef}
                     style={{border: "solid black 1px"}}
                 />
-                <Button onClick={(e) => {
+                <Button onClick={() => {
                     const val = inputRef.current.value
                     router.push(pathname + '?' + createQueryString('search', val))
                 }}>search</Button>
