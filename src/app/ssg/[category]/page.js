@@ -1,7 +1,10 @@
+import Products from "../../../components/Products";
+
 export async function generateStaticParams() {
-    const categories =
-        await fetch('https://dummyjson.com/products/categories')
-            .then((res) => res.json())
+
+    const response = await fetch("https://dummyjson.com/products/categories");
+    const categories = await response.json();
+    console.log(categories);
 
     return categories.map((category) => ({
         category: category
@@ -10,15 +13,17 @@ export async function generateStaticParams() {
 
 // Multiple versions of this page will be statically generated
 // using the `params` returned by `generateStaticParams`
-export default function SSG({ params }) {
-    const { category } = params
+export default function SSG({params}) {
+    const {category} = params
+
+    const url = `https://dummyjson.com/products/category/${category}`
 
     // useSearchParams
     // generateStaticParams
-    return (
-        <div>
-            {category}
-        </div>
-    );
-}
+    return <>
+        {category}
+        <Products url={url}/>
+    </>
 
+
+}

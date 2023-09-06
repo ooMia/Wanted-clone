@@ -18,7 +18,6 @@ export default async function SSR({params}) {
     const {productId} = params
 
     let isValid = true
-
     let data;
     try {
         data = await getData(productId)
