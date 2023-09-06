@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14d1601d-4777-4058-ac0b-1b28edf5f8a3" name="변경" comment="2~3번 과제 수행">
+    <list default="true" id="14d1601d-4777-4058-ac0b-1b28edf5f8a3" name="변경" comment="1번 부분 수행">
+      <change afterPath="$PROJECT_DIR$/src/components/StaticProducts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/login/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ssg/[category]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ssg/[category]/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/ssr/[productId]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ssr/[productId]/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +71,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Github\Wanted-clone\src\app\ssg\[category]" />
+      <recent name="C:\Github\Wanted-clone\src\app\ssg\[category]\[products]" />
       <recent name="C:\Github\Wanted-clone\src\app" />
+      <recent name="C:\Github\Wanted-clone\src\app\ssr\category" />
     </key>
   </component>
   <component name="RunManager">
@@ -95,6 +101,7 @@
       <workItem from="1693350024566" duration="12543000" />
       <workItem from="1693379589995" duration="5025000" />
       <workItem from="1693485692159" duration="60590000" />
+      <workItem from="1693884551057" duration="50968000" />
     </task>
     <task id="LOCAL-00001" summary="1번 과제">
       <option name="closed" value="true" />
@@ -120,7 +127,55 @@
       <option name="project" value="LOCAL" />
       <updated>1693664342333</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2번 부분 수행">
+      <option name="closed" value="true" />
+      <created>1693921056910</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693921056910</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2번 부분 수행">
+      <option name="closed" value="true" />
+      <created>1693921601652</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693921601652</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2번 부분 수행">
+      <option name="closed" value="true" />
+      <created>1693921628241</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693921628241</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2번 부분 수행">
+      <option name="closed" value="true" />
+      <created>1693967545047</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693967545047</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2번 부분 수행">
+      <option name="closed" value="true" />
+      <created>1693972961240</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693972961240</updated>
+    </task>
+    <task id="LOCAL-00009" summary="1번 부분 수행">
+      <option name="closed" value="true" />
+      <created>1693990887970</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693990887970</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +185,8 @@
     <MESSAGE value="1번 과제" />
     <MESSAGE value="1번 과제 수행" />
     <MESSAGE value="2~3번 과제 수행" />
-    <option name="LAST_COMMIT_MESSAGE" value="2~3번 과제 수행" />
+    <MESSAGE value="2번 부분 수행" />
+    <MESSAGE value="1번 부분 수행" />
+    <option name="LAST_COMMIT_MESSAGE" value="1번 부분 수행" />
   </component>
 </project>
