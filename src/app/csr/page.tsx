@@ -7,7 +7,7 @@ import Container from "@mui/material/Container";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Products from "@/components/Products";
+import Products from "../../components/Products";
 
 
 export default function CSR() {
