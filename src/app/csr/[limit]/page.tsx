@@ -1,3 +1,6 @@
+'use client'
+// 이거 안 해주면 하위 컴포넌트 로딩될 때까지 기다려야함
+
 import dynamic from "next/dynamic";
 import {Skeleton} from "@mui/material";
 import Grid from "@mui/material/Grid";
