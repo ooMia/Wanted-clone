@@ -13,9 +13,9 @@ import Grid from '@mui/material/Grid';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import {createTheme, ThemeProvider} from '@mui/material/styles';
-import AlertDialog from "../../components/AlertDialog";
+import AlertDialog from "@/components/AlertDialog";
 import {useContext} from "react";
-import {DialogContext, DialogDispatchContext} from "../../contexts/DialogContext";
+import {DialogContext, DialogDispatchContext} from "@/contexts/DialogContext";
 import {useForm} from "react-hook-form";
 
 function Copyright(props) {
