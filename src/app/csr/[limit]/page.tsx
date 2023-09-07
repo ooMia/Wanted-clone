@@ -1,6 +1,5 @@
 import dynamic from "next/dynamic";
 import {Skeleton} from "@mui/material";
-import React from "react";
 import Grid from "@mui/material/Grid";
 
 export default async function SS({params}) {

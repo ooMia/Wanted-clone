@@ -1,6 +1,6 @@
 import Button from "@mui/material/Button";
 import AlertDialog from "./AlertDialog";
-import {DialogContext, DialogDispatchContext} from "../contexts/DialogContext";
+import {DialogContext, DialogDispatchContext} from "@/contexts/DialogContext";
 import {useContext} from "react";
 const CustomDialogsDemo = () => {
 

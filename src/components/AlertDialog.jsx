@@ -4,7 +4,7 @@ import Dialog from "@mui/material/Dialog";
 import DialogTitle from "@mui/material/DialogTitle";
 import {DialogActions, DialogContent, DialogContentText} from "@mui/material";
 import Button from "@mui/material/Button";
-import {DialogContext, DialogDispatchContext} from "../contexts/DialogContext";
+import {DialogContext, DialogDispatchContext} from "@/contexts/DialogContext";
 import {useContext} from "react";
 
 export default function AlertDialog() {
