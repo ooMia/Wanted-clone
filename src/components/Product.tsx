@@ -1,7 +1,7 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 
-const Product = ({item}) => {
+export default async function Product({item}) {
     return (<Box>
         <img
             alt={item.title}
@@ -13,5 +13,3 @@ const Product = ({item}) => {
         <Typography width={210} sx={{textOverflow: "ellipsis"}}>{item.title}</Typography>
     </Box>)
 }
-
-export default Product

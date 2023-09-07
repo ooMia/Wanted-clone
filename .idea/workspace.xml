@@ -7,6 +7,8 @@
     <list default="true" id="14d1601d-4777-4058-ac0b-1b28edf5f8a3" name="변경" comment="2번 추가 (개별 API 호출) use client 절대경로 시도">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/csr/[limit]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/csr/[limit]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewProduct.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewProduct.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Product.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +103,7 @@
       <workItem from="1693485692159" duration="60590000" />
       <workItem from="1693884551057" duration="53627000" />
       <workItem from="1693997863350" duration="2036000" />
-      <workItem from="1694095071089" duration="7244000" />
+      <workItem from="1694095071089" duration="11480000" />
     </task>
     <task id="LOCAL-00001" summary="1번 과제">
       <option name="closed" value="true" />
@@ -255,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694101889962</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="2번 추가 (개별 API 호출) use client 절대경로 시도">
+      <option name="closed" value="true" />
+      <created>1694102937413</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1694102937413</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
