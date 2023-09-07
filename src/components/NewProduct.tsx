@@ -1,5 +1,6 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import Image from "next/image";
 
 async function getData(productId: number) {
 
@@ -26,9 +27,11 @@ export default async function NewProduct({productId}) {
 
     // 필요하면 isValid로 검증
     return (<Box>
-        <img
+        <Image
             alt={item.title}
             src={item.thumbnail}
+            width={210}
+            height={118}
             style={{
                 width: 210, height: 118, margin: 3
             }}

@@ -1,11 +1,14 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import Image from "next/image";
 
-export default async function Product({item}) {
+export default function Product({item}) {
     return (<Box>
-        <img
+        <Image
             alt={item.title}
             src={item.thumbnail}
+            width={210}
+            height={118}
             style={{
                 width: 210, height: 118, margin: 3
             }}

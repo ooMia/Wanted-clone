@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
 
 module.exports = {
     images: {
@@ -7,12 +6,10 @@ module.exports = {
             {
                 protocol: 'https',
                 hostname: 'i.dummyjson.com',
-                port: '',
-                pathname: '/products/**',
+                pathname: '/data/**',
             },
         ],
     },
 }
 
 
-module.exports = nextConfig

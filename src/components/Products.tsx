@@ -1,37 +1,31 @@
-'use client'
-
-
-import {CircularProgress, Skeleton} from "@mui/material";
 import Grid from "@mui/material/Grid";
-import {useEffect, useState} from "react";
-
-import axios from "axios";
-import dynamic from "next/dynamic";
+import Product from "./Product";
 
 
-const Products = ({url}) => {
-    const [items, setItems] = useState(undefined);
+async function getData(url) {
 
-    useEffect(() => {
-            axios.get(url)
-                .then(res => setItems(res.data))
-        }, [url]
-    )
+    const res = await fetch(url)
+    // The return value is *not* serialized
+    // You can return Date, Map, Set, etc.
 
-    const Product = dynamic(() => import('./Product'), {
-        loading: () => <Skeleton width={210} height={118} style={{margin: 3}}/>,
-    })
+    if (!res.ok) {
+        // This will activate the closest `error.js` Error Boundary
+        throw new Error('Failed to fetch data')
+    }
+    return res.json()
+}
 
+
+export default async function Products({url}) {
+
+    const items = await getData(url)
     return (
         <Grid
             container
             direction="row"
             justifyContent="flex-start"
-            alignItems="stretch">
-            {items
-                ? (items.products.map((item) => <Product item={item} key={item.id}/>))
-                : (<CircularProgress/>)}
+            alignItems="stretch"
+        >
+            {items.products.map((item) => <Product item={item} key={item.id}/>)}
         </Grid>)
 }
-
-export default Products
