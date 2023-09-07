@@ -7,7 +7,7 @@ import Container from "@mui/material/Container";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Products from "../../components/Products";
+import Products from "@/components/Products";
 
 
 export default function CSR() {
@@ -39,7 +39,7 @@ export default function CSR() {
     }
 
     console.log(searchParams)
-    const inputRef = useRef()
+    const inputRef:any = useRef();
     return (
         <Container maxWidth={"xl"}>
             <Box sx={{marginTop: 5,}}>
@@ -54,7 +54,7 @@ export default function CSR() {
                 }}>search</Button>
             </Box>
             <Box sx={{marginTop: 5,}}>
-                {!details && <Button onClick={onClickEventHandler}>CLICK ME</Button>}
+                {!details && <Button onClick={onClickEventHandler}>Search</Button>}
                 {details && <Products url={url}/>}
             </Box>
         </Container>
