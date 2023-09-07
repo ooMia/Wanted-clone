@@ -6,7 +6,7 @@ export default async function SS({params}) {
 
     const {limit} = params
 
-    const NewProduct = dynamic(() => import('@/components/NewProduct'), {
+    const NewProduct = dynamic(() => import('../../../components/NewProduct'), {
         ssr: false, loading: () => <Skeleton width={210} height={146} style={{margin: 3}}/>,
     })
 
