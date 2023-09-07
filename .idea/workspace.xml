@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14d1601d-4777-4058-ac0b-1b28edf5f8a3" name="변경" comment="2번 추가 (개별 API 호출)">
+    <list default="true" id="14d1601d-4777-4058-ac0b-1b28edf5f8a3" name="변경" comment="2번 추가 (개별 API 호출) use client webpack 설정 전 상대 경로 import">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/csr/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/csr/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/login/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/register/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/register/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AlertDialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AlertDialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CustomDialogsDemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomDialogsDemo.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,7 @@
       <workItem from="1693485692159" duration="60590000" />
       <workItem from="1693884551057" duration="53627000" />
       <workItem from="1693997863350" duration="2036000" />
-      <workItem from="1694095071089" duration="5780000" />
+      <workItem from="1694095071089" duration="6055000" />
     </task>
     <task id="LOCAL-00001" summary="1번 과제">
       <option name="closed" value="true" />
@@ -218,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694100910047</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2번 추가 (개별 API 호출) use client webpack 설정 전 상대 경로 import">
+      <option name="closed" value="true" />
+      <created>1694101176142</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1694101176142</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +240,7 @@
     <MESSAGE value="1번 부분 수행" />
     <MESSAGE value="3번 부분 수행" />
     <MESSAGE value="2번 추가 (개별 API 호출)" />
-    <option name="LAST_COMMIT_MESSAGE" value="2번 추가 (개별 API 호출)" />
+    <MESSAGE value="2번 추가 (개별 API 호출) use client webpack 설정 전 상대 경로 import" />
+    <option name="LAST_COMMIT_MESSAGE" value="2번 추가 (개별 API 호출) use client webpack 설정 전 상대 경로 import" />
   </component>
 </project>
