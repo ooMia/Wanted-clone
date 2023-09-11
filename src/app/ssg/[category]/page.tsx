@@ -18,8 +18,6 @@ export default function SSG({params}) {
 
     const url = `https://dummyjson.com/products/category/${category}`
 
-    // useSearchParams
-    // generateStaticParams
     return <>
         {category}
         <Products url={url}/>

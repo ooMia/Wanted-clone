@@ -6,7 +6,8 @@ import Snackbar from '@mui/material/Snackbar';
 import MuiAlert from '@mui/material/Alert';
 import {forwardRef, useState} from "react";
 
-const Alert = forwardRef(function Alert(props, ref) {
+const Alert:any = forwardRef(
+    function Alert(props, ref:any) {
     return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
 });
 

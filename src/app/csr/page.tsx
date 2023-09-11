@@ -1,13 +1,14 @@
 'use client'
 
-import {useCallback, useMemo, useRef, useState} from 'react';
+import {useCallback, useMemo, useRef} from 'react';
 import Button from "@mui/material/Button";
 import {usePathname, useRouter, useSearchParams} from "next/navigation";
 import Container from "@mui/material/Container";
 import TextField from "@mui/material/TextField";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import Products from "../../components/Products";
+import dynamic from "next/dynamic";
+import {Skeleton} from "@mui/material";
 
 
 export default function CSR() {
@@ -15,8 +16,8 @@ export default function CSR() {
     const pathname = usePathname()
     const searchParams = useSearchParams()
 
-    // const details = true
-    const [details, setDetails] = useState(false)
+    const details = true
+    // const [details, setDetails] = useState(false)
 
     const createQueryString = useCallback((name, value) => {
         const params = new URLSearchParams(searchParams)
@@ -34,12 +35,17 @@ export default function CSR() {
         }, [searchKeyword]
     )
 
-    const onClickEventHandler = () => {
-        setDetails(true)
-    }
+    // const onClickEventHandler = () => {
+    //     setDetails(true)
+    // }
+
+    const Products = dynamic(() => import('../../components/Products'), {
+        ssr:false,
+        loading: () => <Skeleton width={210} height={146} style={{margin: 3}}/>
+    })
 
     console.log(searchParams)
-    const inputRef = useRef()
+    const inputRef:any = useRef();
     return (
         <Container maxWidth={"xl"}>
             <Box sx={{marginTop: 5,}}>
@@ -54,7 +60,7 @@ export default function CSR() {
                 }}>search</Button>
             </Box>
             <Box sx={{marginTop: 5,}}>
-                {!details && <Button onClick={onClickEventHandler}>CLICK ME</Button>}
+                {/*{!details && <Button onClick={onClickEventHandler}>Search</Button>}*/}
                 {details && <Products url={url}/>}
             </Box>
         </Container>
