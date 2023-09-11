@@ -1,4 +1,4 @@
-import Product from "../../../components/Product";
+    import Product from "../../../components/Product";
 
 async function getData(productId) {
 
