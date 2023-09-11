@@ -1,8 +1,11 @@
 #1 SSR
 https://wanted-clone.vercel.app/ssr/1
 
-#2 CSR
+#2-1 CSR: fetch image list
 https://wanted-clone.vercel.app/csr
+
+#2-2 CSR: fetch per image
+https://wanted-clone.vercel.app/csr/3
 
 #3 SSG
 https://wanted-clone.vercel.app/ssg/tops
