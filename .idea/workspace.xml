@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14d1601d-4777-4058-ac0b-1b28edf5f8a3" name="변경" comment="1번 부분 수행">
+    <list default="true" id="14d1601d-4777-4058-ac0b-1b28edf5f8a3" name="변경" comment="문제 1 &amp; 2&#10;이미지 링크">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/ssr/[productId]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ssr/[productId]/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Product.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,12 +183,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1번 과제" />
     <MESSAGE value="1번 과제 수행" />
     <MESSAGE value="2~3번 과제 수행" />
     <MESSAGE value="2번 부분 수행" />
     <MESSAGE value="1번 부분 수행" />
-    <option name="LAST_COMMIT_MESSAGE" value="1번 부분 수행" />
+    <MESSAGE value="문제 1 &amp; 2&#10;이미지 링크" />
+    <option name="LAST_COMMIT_MESSAGE" value="문제 1 &amp; 2&#10;이미지 링크" />
   </component>
 </project>

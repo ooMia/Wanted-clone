@@ -27,7 +27,7 @@ export default async function SSR({params}) {
 
     return (<>
         {isValid
-            ? <Product item={data}/>
+            ? <Product item={data} link={`/csr?search=${data.id}`}/>
             : <p>invalid id</p>}
     </>)
 }

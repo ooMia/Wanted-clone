@@ -2,9 +2,9 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 
-const Product = ({item}) => {
+const Product = ({item, link}) => {
     return (<Box>
-        <Link href={`/ssr/${item.id}`}>
+        <Link href={link}>
             <img
                 alt={item.title}
                 src={item.thumbnail}
