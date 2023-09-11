@@ -26,6 +26,6 @@ export default async function Products({url}) {
             justifyContent="flex-start"
             alignItems="stretch"
         >
-            {items.products.map((item) => <Product item={item} key={item.id}/>)}
+            {items.products.map((item) => <Product item={item} key={item.id} link={`ssr/${item.id}`}/>)}
         </Grid>)
 }
