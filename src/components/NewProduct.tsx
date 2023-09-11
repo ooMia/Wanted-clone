@@ -28,7 +28,7 @@ export default async function NewProduct({productId}) {
 
     // 필요하면 isValid로 검증
     return (<Box>
-        <Link href={`ssr/${productId}`}>
+        <Link href={`/ssr/${productId}`}>
             <Image
                 alt={item.title}
                 src={item.thumbnail}

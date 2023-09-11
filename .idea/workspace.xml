@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="14d1601d-4777-4058-ac0b-1b28edf5f8a3" name="변경" comment="문제 1 &amp; 2&#10;이미지 링크">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewProduct.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewProduct.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Products.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694417004094</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="문제 1 &amp; 2&#10;이미지 링크">
+      <option name="closed" value="true" />
+      <created>1694417689015</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694417689015</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
