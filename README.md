@@ -1,3 +1,15 @@
+#1 SSR
+https://wanted-clone.vercel.app/ssr/1
+
+#2 CSR
+https://wanted-clone.vercel.app/csr
+
+#3 SSG
+https://wanted-clone.vercel.app/ssg/tops
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
